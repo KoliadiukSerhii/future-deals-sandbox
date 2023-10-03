@@ -1,0 +1,80 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #1c3d52;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.card {
+	background-color: #0e1e2b;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card h1 {
+	margin-bottom: 10px;
+	font-size: 44px;
+	color: #fff;
+}
+
+.card p {
+	margin: 5px 0;
+	font-size: 32px;
+}
+
+.card p select {
+	font-size: 24px;
+	margin-left: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+}
+
+.card p input {
+	font-size: 24px;
+	margin-left: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+}
+
+.trading-buttons__wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.trading-button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	font-size: 28px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.trading-button.red {
+	background-color: red;
+	color: white;
+}
+
+.trading-button.green {
+	background-color: green;
+	color: white;
+}
+
+.trading-button.yellow {
+	background-color: yellow;
+	color: black;
+}
+
+.trading-button:active {
+	transform: scale(0.9);
+}
