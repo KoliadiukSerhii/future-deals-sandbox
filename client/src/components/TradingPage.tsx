@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TradingButtons from './TradingButtons';
 import tradeService from '../services/Trade-service';
-import axios from 'axios';
 
 const TradingPage: React.FC = () => {
 	const [balance, setBalance] = useState(100);
